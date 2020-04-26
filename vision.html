@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700%7CPoppins:300,400,500,600,700">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style592e.css?ver=3">
+    <link rel="stylesheet" href="css/animate17dd3.css?ver=4">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -130,10 +131,11 @@
       </header>      <!-- Breadcrumbs-->
       <section class="breadcrumbs-custom bg-image context-dark" style="background-image: url(images/bg-image-11-1920x663.jpg);">
         <div class="container">
-          <h2 class="breadcrumbs-custom-title">About Us</h2>
+          <h2 class="breadcrumbs-custom-title">Vision</h2>
           <ul class="breadcrumbs-custom-path">
             <li><a href="index-2.html">Home</a></li>
-            <li class="active">About Us</li>
+            <li><a href="about.html">About</a></li>
+            <li class="active">Vision</li>
           </ul>
         </div>
       </section>
@@ -240,8 +242,24 @@
         </div>
       </footer>
     </div>
-    <script src="../code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/core1.js"></script>
+    <div class="snackbars" id="form-output-global"></div>
+    <script
+  src="../code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+<link rel="stylesheet" type="text/css" href="js/owl.carousel.min.css" />
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+    loop: true, 
+    margin: 10, responsiveClass: true,   
+    responsive: {  
+      0: {items: 1, nav: true,  }, 
+      600: { items: 1, nav: true, loop: true }, 
+      1000: { items: 1, nav: true, loop: true, margin: 18 },  
+      1400: { items: 1,  nav: true,   loop: true,  margin: 5   }   
+    } 
+  });
+</script>
   </body>
 </html>
